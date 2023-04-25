@@ -1,0 +1,15 @@
+th{
+    padding: 20px;
+    color: rgb(6, 237, 6);
+}
+td{
+    padding-left:30px;
+}
+table{
+    margin-top: 100px;
+    border: black 5px solid;
+}
+h3{
+    margin-top: 50px;
+    color: rgb(241, 5, 5);
+}

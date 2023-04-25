@@ -1,0 +1,20 @@
+<div align="center">
+    <h3> Update Employee Data</h3>
+       <form #updateform="ngForm" (ngSubmit)="updatedata(updateform)">
+   
+           <label for="eid"> Employee Id : </label>
+           <input type="number" id="eid" #eid (ngModel)="eid" name="eid">
+           <br> <br>
+   
+           <label for="ename"> Employee Name : </label>
+           <input type="text" id="ename"  #ename (ngModel)="ename" name="ename">
+           <br> <br>
+   
+           <label for="esal"> Employee Salary : </label>
+           <input type="number" id="esal"  #esal (ngModel)="esal" name="esal">
+           <br><br>
+        
+           <button type="submit" value="Update" class="btn-btn-primary">submit</button>
+        </form>
+       
+   <div>
